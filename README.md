@@ -1,48 +1,49 @@
-# Morgana - Revolutionizing RPG Development 🚀
+# Morgana - Modernizing RPG Development
 
-Welcome to **Morgana**, the brainchild of a passionate startup team on a mission to transform RPG development! We believe that even the most legacy-driven codebases deserve modern, intuitive tools. That’s why we created Morgana. A Visual Studio Code extension that reimagines how developers interact with RPG code. Whether you’re maintaining decades-old fixed-format RPG or dreaming of a free-format future, Morgana is here to make your life easier, your workflow faster, and your projects more fun.
+Welcome to **Morgana**, a project by a dedicated team aiming to bring RPG development tools into the modern era. RPG development has long been tied to legacy workflows, and we believe it’s time for a change. Morgana is a Visual Studio Code extension designed to make working with RPG code more intuitive, efficient, and enjoyable. Whether you’re maintaining fixed-format RPG or preparing for mixed and free-format RPG, Morgana is here to support you every step of the way.
 
 ## Why Morgana?
 
-Let’s face it: RPG development can feel stuck in the past. But it doesn’t have to be! Morgana is here to:
+RPG development doesn’t have to be stuck in the past. Morgana is here to:
 
-- **Simplify Your Workflow**: With a structured outline view, you’ll never get lost in your RPGLE and SQLRPGLE files again.
-- **Focus on Fixed-Format (For Now)**: We’re starting with fixed-format RPG, but we’re already building the tools to support mixed-format and free-format RPG. The future is bright, and it’s on our roadmap!
-- **Boost Your Productivity**: Jump to definitions, navigate large programs, and resolve file issues in record time.
-- **Integrate Seamlessly**: Morgana works hand-in-hand with the [Code for IBM i](https://marketplace.visualstudio.com/items?itemName=HalcyonTechLtd.code-for-ibmi) extension, so you can focus on coding, not configuring.
+- **Simplify Your Workflow**: With a structured outline view, you’ll always have a clear overview of your RPGLE and SQLRPGLE files.
+- **Focus on Fixed-Format (For Now)**: Our current focus is on fixed-format RPG, but we’re actively working on adding support for mixed-format and free-format RPG. These enhancements are part of our roadmap.
+- **Boost Your Productivity**: Quickly navigate large programs, jump to definitions, and resolve file issues with ease.
+- **Integrate Seamlessly**: Morgana works alongside the [Code for IBM i](https://marketplace.visualstudio.com/items?itemName=HalcyonTechLtd.code-for-ibmi) extension, ensuring a smooth development experience.
 
 ## Our Vision 🌟
 
-We’re not just building a tool; we’re building a movement. RPG developers deserve modern, powerful tools that make their work exciting and impactful. Morgana is just the beginning. Together, we can:
+Our goal is to provide RPG developers with modern tools that make their work more efficient and enjoyable. With Morgana, we aim to:
 
-- Bring RPG development into the 21st century.
-- Empower developers to tackle legacy code with confidence.
-- Create a community of innovators who love RPG as much as we do.
+- Make RPG development accessible and intuitive for both legacy and modern codebases.
+- Empower developers to confidently work with RPG code.
+- Build a community of RPG enthusiasts who share ideas and collaborate on improving the development experience.
 
 ## What’s Next? 🔮
 
-We’re just getting started. Here’s what’s on the horizon:
+We’re committed to continuous improvement. Here’s what’s on our roadmap:
 
-- **Mixed-Format and Free-Format Support**: We’re working hard to bring you the tools you need for modern RPG development.
-- **Blazing-Fast Performance**: Because no one likes waiting.
-- **Global Reach**: Localization for developers around the world.
-- **Community-Driven Features**: Your ideas, your tools. Let’s build this together.
+- **Mixed-Format and Free-Format Support**: Expanding Morgana’s capabilities to handle modern RPG code styles.
+- **Blazing-Fast Performance**: Optimizing the extension for large projects.
+- **Global Reach**: Adding localization to support developers worldwide.
+- **Community-Driven Features**: Incorporating feedback and ideas from our users.
 
 ## Join the Beta 🎉
 
-Morgana is currently in **BETA**, and we’d love for you to be part of it! Send us an email at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to get your hands on the latest version. Your feedback will help shape the future of RPG development.
+Morgana is currently in **BETA**, and we’d love for you to try it out! Send us an email at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request the latest version. Your feedback will help us shape the future of Morgana.
 
-## Let’s Build the Future Together 💡
+## Get Involved 💡
 
-This repository is more than just code—it’s a hub for collaboration, innovation, and growth. Here’s how you can get involved:
+This repository is a space for collaboration and innovation. Here’s how you can contribute:
 
 - **Report Issues**: Found a bug? Let us know!
-- **Start a Discussion**: Have an idea? Share it with the us.
+- **Start a Discussion**: Have an idea? Share it with the community.
+- **Contribute Code**: We welcome pull requests and suggestions.
 
 ## Contact Us 📬
 
-Got questions? Feedback? Big dreams? Reach out to us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks). We’d love to hear from you.
+Have questions or feedback? Reach out to us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks). We’d love to hear from you.
 
 ---
 
-Thank you for believing in Morgana. Together, we’re not just writing code—we’re changing the game. Let’s make RPG development awesome!
+Thank you for supporting Morgana. Together, we can make RPG development more modern and efficient. Let’s build the future of RPG tools!
