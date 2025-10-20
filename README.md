@@ -69,7 +69,15 @@ We’re committed to continuous improvement. Here’s what’s on our roadmap:
 
 ## 🎉 Join the Beta
 
-Morgana is currently in **BETA**, and we’d love for you to try it out! Send us an email at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request the latest version. Your feedback will help us shape the future of Morgana.
+Morgana is currently in **BETA**, and we'd love for you to try it out! Send us an email at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request the latest version. Your feedback will help us shape the future of Morgana.
+
+## 📺 See Morgana in Action
+
+Want to see how Morgana transforms your RPG development experience? Check out our demonstration video that showcases the key features and capabilities of the Morgana extension in action.
+
+[**🎬 Watch Morgana Demo on YouTube**](https://www.youtube.com/watch?v=PaBFrVJN4xY)
+
+This video walks you through the main features of Morgana, demonstrating how the outline view works with real RPG code and how it can streamline your development workflow. See firsthand how Morgana makes navigating complex RPG programs intuitive and efficient.
 
 ## 💡 Get Involved
 
