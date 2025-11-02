@@ -48,13 +48,14 @@ To install the Morgana Beta extension Backend for IBM i, follow these steps:
 [morgana@iandme.rocks](mailto:morgana@iandme.rocks)
 
 3. **Restore the Library to your IBM i Partition**
-   - Sign On with a user that has enough rights to restore a Library. We suggest to use a SECOFR Profile in the Beta Phase
+   - Sign On with a user that has enough rights to restore a Library. We suggest to use a SECOFR Profile in the Beta Phase.
    - Let's assume you restored the Savefile into your Savefile MORGANA in QGPL, then you simply can do a
    RSTLIB SAVLIB(MORGANA) DEV(*SAVF) SAVF(MORGANA) 
 
 4. **Start the Backend Batch Job**
    - In Beta 1 we still use the ILE Open Source Framework ILEastic for communicating between the VS Code Add On and the IBM i Backend. Therefore you need to set a Port in the Frontend and also in Backend. In Beta 2 we will replace this way of communicating by the Code4i DB2 for i Communication path so you will not need any Ports.
    - Please be aware that your Firewall need to allow the communication to the Port on IBM i
+   - The user which will be used to run the Batch Job need to have Access to all the sources and Objects you want to use withing Morgana Outline. For example if you have a RPG Programm in Lib "HUGO" and that uses Display Files in the same Lib and you want to open the source of the DSPF directly within Morgana Outline, the User which runs the Batch Job need to have the authority for Lib HUGO and all the Source Files you want to use. Because you already work with Code4i we expect that your user Profile has enough rights but be aware - if you are more than one developer in your company all developers will share that Batch Job in the Backend so it needs a user who maybe has access to different developer Libs.
    - Starting Morgana Backendservice can be like this:
    SBMJOB CMD(CALL PGM(MORGANA/STRMORGANA) PARM(('MORAPIBETA') ('44023') ('MORGANA') ('QINTER'))) JOB(MORAPIBETA) JOBQ(QINTER)     There are 4 Parameters to be passed to the STRMORGANA CL Programm:
    - PGMNAME --> which is MORAPIBETA
