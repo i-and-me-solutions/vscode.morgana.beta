@@ -38,4 +38,31 @@ Your Morgana Beta extension is now installed and ready to use.
 
 ## Install Morgana Backend for IBM i
 
-TODO
+To install the Morgana Beta extension Backend for IBM i, follow these steps:
+
+1. **Get the Savefile**
+    - Contact us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request access to the Savefile for IBM i. We'll provide you with the download link or send the file directly.
+
+2. **Transfer Savefile to your IBM i Partition**
+   - Transfer the Savefile to your IBM i as you do it normally. If you never copied a Savefile to IBM i, please contact us at 
+[morgana@iandme.rocks](mailto:morgana@iandme.rocks)
+
+3. **Restore the Library to your IBM i Partition**
+   - Sign On with a user that has enough rights to restore a Library. We suggest to use a SECOFR Profile in the Beta Phase
+   - Let's assume you restored the Savefile into your Savefile MORGANA in QGPL, then you simply can do a
+   RSTLIB SAVLIB(MORGANA) DEV(*SAVF) SAVF(MORGANA) 
+
+4. **Start the Backend Batch Job**
+   - In Beta 1 we still use the ILE Open Source Framework ILEastic for communicating between the VS Code Add On and the IBM i Backend. Therefore you need to set a Port in the Frontend and also in Backend. In Beta 2 we will replace this way of communicating by the Code4i DB2 for i Communication path so you will not need any Ports.
+   - Please be aware that your Firewall need to allow the communication to the Port on IBM i
+   - Starting Morgana Backendservice can be like this:
+   SBMJOB CMD(CALL PGM(MORGANA/STRMORGANA) PARM(('MORAPIBETA') ('44023') ('MORGANA') ('QINTER'))) JOB(MORAPIBETA) JOBQ(QINTER)     There are 4 Parameters to be passed to the STRMORGANA CL Programm:
+   - PGMNAME --> which is MORAPIBETA
+   - PORT --> which is the Portnumber you want to Morgana Backend to listen on your IBM i
+   - PGMLIB --> which is the Library you installed Morgana Backend - normally it should be MORGANA
+   - JOBQ --> The JobQ in which the Batch Job should be transferred so you can control where it will run
+   If everything works you should see two entries in your WRKACTJOB Screen within the Subsystem you submitted the Job into
+   <img width="876" height="51" alt="image" src="https://github.com/user-attachments/assets/52bda389-e437-4f16-b328-95114ab12483" />
+
+5. **DONE**
+   - If something doesn't work as expected please contact us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks)
