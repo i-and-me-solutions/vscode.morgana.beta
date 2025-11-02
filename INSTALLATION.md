@@ -34,6 +34,16 @@ To install the Morgana Beta extension in Visual Studio Code using a VSIX file, f
 7. **Reload VS Code (if required)**
    - Some extensions may require you to reload VS Code to activate them. If prompted, click the `Reload` button.
 
+8. **Setting the Port of the Backend Batch Job**
+   - In Beta 1 we still use the ILE Open Source Framework ILEastic for communicating between the VS Code Add On and the IBM i Backend. Therefore you need to set a Port in the Frontend and also in Backend. In Beta 2 we will replace this way of communicating by the Code4i DB2 for i Communication path so you will not need any Ports.
+   - To set the port in the Frontend you should go to VS Code settings, enter Morgana into the search bar and press enter
+   - you should see something similar to this
+   <img width="626" height="269" alt="image" src="https://github.com/user-attachments/assets/cb8b096e-d2e4-41a9-b5d7-3c1a7ffab3a1" />
+   - Please enter the IP address or DNS Name of your IBM i Partition where you install the Backend Part (see below) and the port number you choose seperated by : - for example: 192.168.1.1:44023
+   - If the Batch Job is already running on your IBM i partition you will get an Info that the service is online. Otherwise you will get an error.
+   - Be aware, that with each key stroke the connection tries to enable the communication. So it will be multiple errors.
+
+
 Your Morgana Beta extension is now installed and ready to use.
 
 ## Install Morgana Backend for IBM i
