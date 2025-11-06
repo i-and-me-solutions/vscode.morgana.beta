@@ -12,7 +12,7 @@ While you can use the VS Code extension independently, some features (such as op
 To install the Morgana Beta extension in Visual Studio Code using a VSIX file, follow these steps:
 
 1. **Get the VSIX File**
-    - Download the the file `morgana-0.1.6.vsix` file from this repository
+    - Download the the file `morgana-0.1.6.vsix` file from this repository [Download](https://github.com/i-and-me-solutions/vscode.morgana.beta/releases/download/0.1.6/morgana-0.1.6.vsix)
 
 2. **Open Visual Studio Code**
    - Launch Visual Studio Code on your computer.
@@ -37,6 +37,7 @@ To install the Morgana Beta extension in Visual Studio Code using a VSIX file, f
 8. **Setting the Port of the Backend Batch Job**
    - In Beta 1 we still use the ILE Open Source Framework ILEastic for communicating between the VS Code Add On and the IBM i Backend. Therefore you need to set a Port in the Frontend and also in Backend. In Beta 2 we will replace this way of communicating by the Code4i DB2 for i Communication path so you will not need any Ports.
    - To set the port in the Frontend you should go to VS Code settings, enter Morgana into the search bar and press enter
+   - Alternatively, you can click the gear icon in the Morgana RPG Outline view, which will also open the settings.
    - you should see something similar to this
    <img width="626" height="269" alt="image" src="https://github.com/user-attachments/assets/cb8b096e-d2e4-41a9-b5d7-3c1a7ffab3a1" />
    - Please enter the IP address or DNS Name of your IBM i Partition where you install the Backend Part (see below) and the port number you choose seperated by : - for example: 192.168.1.1:44023
@@ -54,13 +55,13 @@ To install the Morgana Beta extension Backend for IBM i, follow these steps:
     - Contact us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request access to the Savefile for IBM i. We'll provide you with the download link or send the file directly.
 
 2. **Transfer Savefile to your IBM i Partition**
-   - Transfer the Savefile to your IBM i as you do it normally. If you never copied a Savefile to IBM i, please contact us at 
+   - Transfer the Savefile to your IBM i as you do it normally. If you never copied a Savefile to IBM i, please contact us at
 [morgana@iandme.rocks](mailto:morgana@iandme.rocks)
 
 3. **Restore the Library to your IBM i Partition**
    - Sign On with a user that has enough rights to restore a Library. We suggest to use a SECOFR Profile in the Beta Phase.
    - Let's assume you restored the Savefile into your Savefile MORGANA in QGPL, then you simply can do a
-   RSTLIB SAVLIB(MORGANA) DEV(*SAVF) SAVF(MORGANA) 
+   RSTLIB SAVLIB(MORGANA) DEV(*SAVF) SAVF(MORGANA)
 
 4. **Start the Backend Batch Job**
    - In Beta 1 we still use the ILE Open Source Framework ILEastic for communicating between the VS Code Add On and the IBM i Backend. Therefore you need to set a Port in the Frontend and also in Backend. In Beta 2 we will replace this way of communicating by the Code4i DB2 for i Communication path so you will not need any Ports.
