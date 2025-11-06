@@ -12,7 +12,7 @@ While you can use the VS Code extension independently, some features (such as op
 To install the Morgana Beta extension in Visual Studio Code using a VSIX file, follow these steps:
 
 1. **Get the VSIX File**
-    - Contact us at [morgana@iandme.rocks](mailto:morgana@iandme.rocks) to request access to the VSIX file. We'll provide you with the download link or send the file directly.
+    - Download the the file `morgana-0.1.6.vsix` file from this repository
 
 2. **Open Visual Studio Code**
    - Launch Visual Studio Code on your computer.

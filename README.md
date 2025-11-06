@@ -1,7 +1,17 @@
 # Morgana IBM i Outline and more for Visual Studio Code
 
-Welcome to **Morgana IBM i Outline**, a project by a dedicated team with the goal of making life easier for IBM i developers and saving them more and more time in their daily work. 
+Welcome to **Morgana IBM i Outline**, a project by a dedicated team with the goal of making life easier for IBM i developers and saving them more and more time in their daily work.
 RPG development has long been tied to legacy workflows, and we believe it’s time for a change. Morgana is a Visual Studio Code extension designed to make working with RPG code more intuitive, efficient, and enjoyable. Whether you’re maintaining fixed-format RPG or preparing for mixed and free-format RPG, Morgana is here to support you every step of the way.
+
+## 🛠️ Using Morgana Outline
+
+Morgana Outline is designed to simplify your RPG development workflow. Here's how you can get started:
+
+1. **Open an RPGLE or SQLRPGLE File**: Simply open any RPGLE or SQLRPGLE file in Visual Studio Code.
+2. **View the Outline**: The Morgana Outline will automatically appear in the Explorer section of the Activity Bar, providing a structured overview of your code. If you have the "Code for IBM i" extension open, you may need to switch to the Explorer view in the Activity Bar to access the Morgana Outline. You can also drag the Morgana Outline to any other view you prefer. For example, feel free to move it to the "Code for IBM i" section if that fits your workflow better.
+3. **Navigate Your Code**: Use the outline to quickly jump to fields, subroutines, procedures, and other key elements in your code.
+
+With Morgana Outline, navigating complex RPG programs has never been easier!
 
 ## 🌟 Why Morgana?
 
@@ -11,7 +21,7 @@ RPG development doesn’t have to be stuck in the past. Morgana is here to:
 - **Focus on Fixed-Format RPG (For Now)**: Our current focus is on fixed-format RPG, but we’re actively working on adding support for hybrid (mixed-format) and free-format RPG, as well as CL/CLLE. These enhancements are part of our roadmap.
 - **RPG-II, OCL, RPG-III and Cobol**: Could be also added if you want it. Please tell us, if there is a need and we will add this to our roadmap.
 - **Boost Your Productivity**: Quickly navigate large programs, jump to definitions, and resolve file issues with ease.
-- **Enhanced Outline Features**: In the first step we added a GOTO Marker, as well as the very effective Feature that opens any Source Code which is related to your program, like CALLed Programs or Subprocedures. 
+- **Enhanced Outline Features**: In the first step we added a GOTO Marker, as well as the very effective Feature that opens any Source Code which is related to your program, like CALLed Programs or Subprocedures.
 - **Integrate Seamlessly**: Morgana works alongside the [Code for IBM i](https://marketplace.visualstudio.com/items?itemName=HalcyonTechLtd.code-for-ibmi) extension, ensuring a smooth development experience.
 
 ## 📝 What is MORGANA Outline?
@@ -69,7 +79,7 @@ We’re committed to continuous improvement. Here’s what’s on our roadmap:
 - **Embedded SQL RPG**: In all combinations.
 - **Blazing-Fast Performance**: Optimizing the extension for large projects.
 - **Global Reach**: Adding localization to support developers worldwide.
-- **A few real gems. Prepare to be surprised...** 
+- **A few real gems. Prepare to be surprised...**
 - **Community-Driven Features**: Incorporating feedback and ideas from our users.
 
 ## 🎉 Join the Beta
